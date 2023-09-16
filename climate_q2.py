@@ -3,7 +3,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# read the csv data
+# read the csv data using pandas
 climateData = pd.read_csv('climate.csv')
 #using anaconda prompt, cd to file location
 #show the data of years
@@ -13,6 +13,11 @@ print(climateData.head())
 years = climateData['Year']
 co2 = climateData['CO2']
 temp = climateData['Temperature']
+
+
+# practice, trial and error code
+#for data in climateData["Year"]:
+     #years.append(data)
 
 
 
