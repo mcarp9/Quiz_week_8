@@ -44,6 +44,8 @@ print(temp)
 
 
 
+
+
 cursor.close()
 con.close()
 
@@ -59,5 +61,6 @@ plt.plot(years, temp, 'r*-')
 plt.ylabel("Temp (C)")
 plt.xlabel("Year (decade)")
 
+#checking if the figure is the same as q2
 #plt.savefig("q1.png")
-plt.show()
+#plt.show()
